@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Django Dev Server",
+			"type": "shell",
+			"command": "C:/Users/14sam/OneDrive/Documents/GitHub/pixie_merchandise/.venv/Scripts/python.exe",
+			"args": [
+				"manage.py",
+				"runserver"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
